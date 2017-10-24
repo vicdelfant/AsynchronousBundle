@@ -1,6 +1,6 @@
 {
     "name": "simple-bus/asynchronous-bundle",
-    "type": "bundle",
+    "type": "symfony-bundle",
     "description": "Symfony bundle for using SimpleBus/Asynchronous",
     "keywords": ["asynchronous", "message", "message bus", "event bus", "command bus"],
     "homepage": "http://github.com/SimpleBus/AsynchronousBundle",
@@ -19,9 +19,9 @@
     "require": {
         "php": "^5.6 || ^7.0",
         "beberlei/assert": "~2.0",
-        "simple-bus/message-bus": "~2.0",
-        "simple-bus/asynchronous": "~2.1",
-        "simple-bus/symfony-bridge": "~4.0",
+        "simple-bus/message-bus": "~3.0",
+        "simple-bus/asynchronous": "~3.0",
+        "simple-bus/symfony-bridge": "~5.0",
         "symfony/framework-bundle": "~2.0 || ~3.0"
     },
     "suggest": {
